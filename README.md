@@ -1,7 +1,13 @@
 ```
 yum install glibc-static libstdc++-static
 yum -y install gcc+ gcc-c++
-https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+yum install glibc.i686
+yum install libstdc++.so.6
+
+
+
+https://blog.csdn.net/qq_36006553/article/details/53535092
+
 tar -jxvf
 sudo vi  /etc/profile
 export PATH=$PATH:???
