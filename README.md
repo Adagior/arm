@@ -3,6 +3,7 @@ yum install glibc-static libstdc++-static
 yum -y install gcc+ gcc-c++
 yum install glibc.i686
 yum install libstdc++.so.6
+yum groupinstall 'Development Tools'
 
 
 
